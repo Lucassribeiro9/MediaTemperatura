@@ -40,7 +40,6 @@ Para utilizar o projeto e visualizar os dados, siga as etapas abaixo:
 
    ```python
    import matplotlib.pyplot as plt
-
    plt.plot(dados['data'], dados['precip'])
    plt.xlabel('Data')
    plt.ylabel('Precipitação (mm)')
