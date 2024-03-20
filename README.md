@@ -38,13 +38,14 @@ Para utilizar o projeto e visualizar os dados, siga as etapas abaixo:
 2. O arquivo será carregado e as informações serão exibidas no console.
 3. Você também pode visualizar o DataFrame resultante usando o matplotlib:
 
-   ```python
+   `python
+   import pandas as pd
    import matplotlib.pyplot as plt
    plt.plot(dados['data'], dados['precip'])
    plt.xlabel('Data')
    plt.ylabel('Precipitação (mm)')
    plt.title('Gráfico de Precipitação')
    plt.show()
-   ```
+   `
 
 Este projeto é útil para análise e visualização de dados de temperatura. Sinta-se à vontade para contribuir e expandir suas funcionalidades!
